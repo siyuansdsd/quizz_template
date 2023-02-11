@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoet" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Knowledg Quizz</title>
+    <link rel="stylesheet" href="/CSS/style_quizz.css">
+</head>
+
+<body>
+    <div class="container1">
+        <div id="game" class="justify-centre">
+            <div id="hud">
+                <div class="progress-bar">
+                    <div id="progress-bar-full"></div>
+                </div>
+                <div id="hud-item">
+                    <p class="hud-frefix">Quizzes:</p>
+                    <h1 class="hud-main-text" id="questionCounter">0/5</h1>
+                </div>
+            </div>
+            <div id="hud">
+                <div id="hud-item">
+                    <p class="hud-frefix">My socores:</p>
+                    <h1 class="hud-main-text" id="score">0</h1>
+                </div>
+            </div>
+            <h2 id="question"> which one have the longgest necks?</h2>
+            <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text" data-number="1">Choice 1</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text" data-number="2">Choice 2</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text" data-number="3">Choice 3</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text" data-number="4">Choice 4</p>
+            </div>
+        </div>
+        <div id="loadgr">
+            <div id="loader"></div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/JS/logic_quiz.js"></script>
